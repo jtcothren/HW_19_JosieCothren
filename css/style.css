@@ -1,0 +1,319 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+   }
+   header {
+    background-color: #95BBD5;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+   }
+   header ul {
+    float: right;
+    color: white;
+   font-family: 'Poppins', sans-serif;
+   }
+
+    li:hover {
+      color:#226890
+   }
+
+   header li {
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+   }
+  /***** hero image open****/
+  .masthead {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   width: 100%;
+   height: 100vh; 
+   overflow: hidden;
+   background-size: cover !important;
+   background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,0.65) 100%), url(qijin-xu.png) no-repeat center center scroll;
+   background-image: url("../images/mountainfog.jpeg");
+ }
+  
+ h5 {
+   font-style: normal;
+   font-weight: bold;
+   color: white;
+   font-size: 11vmin;
+   letter-spacing: 0.03em;
+   line-height: 1;
+   -webkit-text-stroke-width:1px;
+   -webkit-text-stroke-color: black;
+   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+   margin-bottom: 300px;
+ }
+  
+ 
+      
+ button {
+   background: #95BBD5;
+   transition: background ease .25s;
+   border-radius: 5px;
+   display: inline-block;
+   border: none;
+   padding: 0.75rem 1.5rem;
+   margin: 0;
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 1.2rem;
+   cursor: pointer;
+   text-align: center;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+ }
+ button:hover {
+   background: #95BBD5
+ }
+ button:focus {
+   outline: 1px solid #fff;
+   outline-offset: -4px;
+ }
+ 
+  /*** About me section start***/
+
+
+   .heroImg {
+    background-color: white;
+    padding: 100px 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+   }
+   .content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #95BBD5;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+   }
+   button {
+    padding: 15px;
+    background-color: #226890;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+   }
+   .aboutButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+   }
+
+ /* start of skills section*/
+ 
+ .fContainer {
+   display: flex;
+   padding: 60px 30px;
+   justify-content: center;
+   align-items: center;
+  }
+  .fContainer div {
+   width: 33%;
+   padding: 25px;
+  }
+  
+ 
+
+ .icon {
+    height: 125px;
+    width: 125px;
+   
+ }
+ .columnHeading h1{
+    font-size: 48px;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+ }
+  
+  
+   .flexContainer {
+    display: flex;
+     background-image: url("../images/mountainfog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+   }
+  
+   .flexItem {
+   margin-right: 25px;
+    margin-left: 25px;
+    padding: 10px;
+    width: 250px;
+   
+    font-family: 'Poppins', sans-serif;
+   
+   }
+   .justifyContent {
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+   }
+  
+ h3{
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+ }
+  
+ /** start of My Work section****/
+  
+ #categoryGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 600px 600px 600px 600px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+    "AACAT AACAT AACAT"
+    "Presto Presto Presto"
+    "BEP BEP BEP"
+    "Sherpa Sherpa Sherpa"
+    ;
+   }
+   
+   #AACAT {
+    grid-area: AACAT;
+    background-image: url("../images/AACAT.png");
+   padding-bottom: 30px;
+   }
+   #Presto {
+    grid-area: Presto;
+    background-image: url("../images/pasta.jpeg");
+    padding-bottom: 30px;
+   }
+   
+   #BEP {
+    grid-area: BEP;
+    background-image: url("../images/BEP.png");
+    padding-bottom: 30px;
+   }
+   
+      #Sherpa {
+    grid-area: Sherpa;
+    background-image: url("../images/sherpa.png");
+    padding-bottom: 30px;
+   }
+   
+   .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+   }
+   
+   .heading {
+    background-color:#95BBD5;
+    padding: 15px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #95BBD5;
+    font-family: 'Poppins', sans-serif;
+   }
+  
+   
+   .resumeContent {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+   
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+   }
+.resume { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 686px;
+    width: 447px;
+}
+.resumeButton {
+    padding: 15px;
+    background-color: #226890;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+   }
+  
+   footer {
+    background-color: #95BBD5;
+    padding: 5px;
+    color: white;
+   }
+   footer ul {
+    list-style: none;
+    padding-left: 5px;
+   }
+   
+   li:hover {
+      color:#226890;
+   }
+
+   footer li {
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+   }
+  
+  @media only screen and (max-width:600px) {
+  .fContainer {
+     flex-direction: column;
+  }
+
+    .flexContainer {
+       flex-direction: column;
+       }
+       .flexItem {
+        margin-right: auto;
+         margin-left: auto;
+         padding: 10px;
+         width: 100%;
+        
+         font-family: 'Poppins', sans-serif;
+        
+        }
+  
+        header {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 1fr);
+            text-align: center;
+          } 
+         
+          content {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            background-color: #FFFFFF;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+           }
+           .headshot {
+               max-width: 250px;
+               max-height: 250px;
+  
+           } 
+           
+  
+  }
+ 
